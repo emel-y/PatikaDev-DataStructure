@@ -1,0 +1,8 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+1- Diziyi 2'ye böl                                ----> [16,21,11] , [8,12,22]
+2- tek sayı kalana kadar bölmeye devam et         ----> [16] [21] [11] , [8] [12] [22]
+3- Her grubu kendi arasında sıralayarak birleştir ----> [11,16,21] , [8,12,22]
+4- Sıraya dikat ederek birleştirmeye devam et     ----> [8,11,12,16,21,22]
+
+Big O notation = O(nlogn)
